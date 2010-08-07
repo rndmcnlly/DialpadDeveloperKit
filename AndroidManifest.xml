@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="as.adamsmith.etherealdialpad.pads.example"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".ExampleDialpad"
+                  android:label="@string/app_name"
+                  android:icon="@drawable/icon">
+            <intent-filter>
+				<action android:name="as.adamsmith.etherealdialpad.PERFORM" />
+			</intent-filter>
+        </activity>
+    </application>
+	<uses-sdk android:minSdkVersion="3" />
+<uses-configuration></uses-configuration>
+</manifest> 
